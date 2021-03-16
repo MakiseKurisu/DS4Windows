@@ -643,4 +643,22 @@
   <data name="XMLActionsCorrupt" xml:space="preserve">
     <value>Actions.xml file was corrupt. Starting from scratch.</value>
   </data>
+  <data name="RainbowWarning1" xml:space="preserve">
+    <value>Rainbow effect is implemented by updating controller's light bar rapidly</value>
+  </data>
+  <data name="RainbowWarning2" xml:space="preserve">
+    <value>As such, you will have various level of CPU power consumption increase due to CPU not being able to enter idle/low power state</value>
+  </data>
+  <data name="RainbowWarning3" xml:space="preserve">
+    <value>For example, on an i7-10750H laptop, turning on AlwaysRainbow increase idle power consumption from 4W to 15W, and normal power consumption from 35W to 40W</value>
+  </data>
+  <data name="RainbowWarning4" xml:space="preserve">
+    <value>However, this only happens when the lightbar is on</value>
+  </data>
+  <data name="RainbowWarning5" xml:space="preserve">
+    <value>If you keep your controller off for the most of time (normal when using wireless connection), this will not affect you as much</value>
+  </data>
+  <data name="RainbowWarning6" xml:space="preserve">
+    <value>If you keep your controller always connected via USB, you will be affected</value>
+  </data>
 </root>

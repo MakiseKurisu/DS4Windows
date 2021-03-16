@@ -1054,6 +1054,60 @@ namespace DS4WinWPF.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Rainbow effect is implemented by updating controller&apos;s light bar rapidly.
+        /// </summary>
+        public static string RainbowWarning1 {
+            get {
+                return ResourceManager.GetString("RainbowWarning1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to As such, you will have various level of CPU power consumption increase due to CPU not being able to enter idle/low power state.
+        /// </summary>
+        public static string RainbowWarning2 {
+            get {
+                return ResourceManager.GetString("RainbowWarning2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to For example, on an i7-10750H laptop, turning on AlwaysRainbow increase idle power consumption from 4W to 15W, and normal power consumption from 35W to 40W.
+        /// </summary>
+        public static string RainbowWarning3 {
+            get {
+                return ResourceManager.GetString("RainbowWarning3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to However, this only happens when the lightbar is on.
+        /// </summary>
+        public static string RainbowWarning4 {
+            get {
+                return ResourceManager.GetString("RainbowWarning4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to If you keep your controller off for the most of time (normal when using wireless connection), this will not affect you as much.
+        /// </summary>
+        public static string RainbowWarning5 {
+            get {
+                return ResourceManager.GetString("RainbowWarning5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to If you keep your controller always connected via USB, you will be affected.
+        /// </summary>
+        public static string RainbowWarning6 {
+            get {
+                return ResourceManager.GetString("RainbowWarning6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Record.
         /// </summary>
         public static string RecordText {

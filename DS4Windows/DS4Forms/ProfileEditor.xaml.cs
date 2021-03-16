@@ -1473,6 +1473,17 @@ namespace DS4WinWPF.DS4Forms
 
             profileSettingsVM.UpdateGyroControlsTrig(menu, e.OriginalSource == alwaysOnItem);
         }
+
+        private void rainbowPowerWarning_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+            MessageBox.Show($"{Properties.Resources.RainbowWarning1}.\n\n" +
+                            $"{Properties.Resources.RainbowWarning2}.\n\n" +
+                            $"{Properties.Resources.RainbowWarning3}.\n\n\n" +
+                            $"{Properties.Resources.RainbowWarning4}.\n\n" +
+                            $"{Properties.Resources.RainbowWarning5}.\n\n" +
+                            $"{Properties.Resources.RainbowWarning6}.",
+                    "DS4Windows", MessageBoxButton.OK, MessageBoxImage.Warning);
+        }
     }
 
     public class ControlIndexCheck
