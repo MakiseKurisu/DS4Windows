@@ -890,6 +890,9 @@
                                 <Slider Value="{Binding MaxSatRainbow,FallbackValue=100}" Minimum="0" Maximum="100" Width="100" IsEnabled="{Binding RainbowExists}" />
                             </StackPanel>
                         </StackPanel>
+                        
+                        <Label Content="Enable Rainbow effect will increase your CPU power consumption, espically under low load." Foreground="Red"/>
+                        <Label Content="On i7-10750H turning AlwaysRainbow on increases idle power consumption from 5W to 15W."/>
                     </StackPanel>
                 </StackPanel>
             </TabItem>
@@ -1690,6 +1693,8 @@
                 </StackPanel>
 
             </TabItem>
+            <Label Content="Label" Height="100" Width="100"/>
+            <Label Content="Label" Height="100" Width="100"/>
         </TabControl>
     </DockPanel>
 </UserControl>
